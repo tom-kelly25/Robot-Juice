@@ -1,0 +1,266 @@
+<!--<=+=THOMAS KELLY 23955074=+=>-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Page title-->
+  <title>Robot Juice</title>
+  <!--Links to the stylesheets-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cssgrid.css">
+  <link href="https://fonts.googleapis.com/css?family=Damion&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+</head>
+<!--Container class linking to grid.css making the foundation -->
+
+<body class="container">
+  <!--Item5 acts like the border to each side of the main content -->
+  <div class="item5"></div>
+  <!--Item1 contains content -->
+  <div class="item1">
+    <!--Title at the top right of the page -->
+    <div class="title">
+      <h1 class="logofont1">Robot &nbsp;</h1>
+      <h1 class="logofont2">Juice </h1>
+    </div>
+    <!--Content in a different div to enable it to postioned correctly -->
+    <div class="title1">
+      <p class="title_font">fictitious cycle lubricants</p>
+    </div>
+
+
+
+  </div>
+  <div class="item5"></div>
+  <div class="item2">
+    <!--Nav bar contains all the links to other pages.-->
+    <ul>
+      <li><a class="active" href="#home">Home</a><span class="divider">|</span></li>
+      <li><a href="product.html">Products</a><span class="divider">|</span></li>
+      <li><a href="#Protect">Protect</a><span class="divider">|</span></li>
+      <li><a href="#Stockist's">Stockist's</a><span class="divider">|</span></li>
+      <li><a href="#Events">Events</a><span class="divider">|</span></li>
+      <li><a href="#Reviews">Reviews</a></li>
+    </ul>
+
+  </div>
+  <!--Big image at the top of the page.-->
+  <div class="item1">
+    <img class="banner" src="robot-juice-images/robotbanner.jpg" alt="Logo">
+    <!--Line underneath the image-->
+    <hr class="thick_line">
+  </div>
+  <div class="item1">
+    <!--Sub title.-->
+    <h3> Robot juice is the ultimate fictitious bicycle and motorcycle<br />
+      lubricants oils.</h3>
+    <!-- Thn Line spliting content -->
+    <hr class="thin_line">
+    <br />
+    <br />
+  </div>
+  <!-- Contins the mid seciton photo and info -->
+  <div class="item1">
+    <div class="column">
+      <img class="section_photo" src="robot-juice-images/bikechain-bikeoil.jpg" alt="">
+      <h4>Bike Oil</h4>
+      <P>
+        Stops and protects against rust, reduces friction on moving parts
+        and is essential on any cycle.
+      </P>
+    </div>
+    <div class="column">
+      <img class="section_photo" src="robot-juice-images/cycleside-drylubrication.jpg" alt="">
+      <h4>Dry Lubrication</h4>
+      <P>
+        Perfect chain lubricant for dry road riding. Resists water penetration
+        and wash-off easily.
+      </P>
+    </div>
+    <div class="column">
+      <img class="section_photo" src="robot-juice-images/frontcycle-wetlubrication.jpg" alt="">
+      <h4>Wet Lubrication</h4>
+      <P>
+        A thick, heavy duty lube designed to stick to the chain in wet
+        conditions. Ideal for extreme and long distance riding.
+      </P>
+    </div>
+    <div class="column">
+      <img class="section_photo" src="robot-juice-images/productreviews.jpg" alt="">
+      <h4>Product Reviews</h4>
+      <P>
+        Read what the press and our customers say about our execellent
+        products.
+      </P>
+    </div>
+
+  </div>
+  <div class="item1">
+    <br />
+    <!-- Another line spliting content -->
+    <hr class="thin_line">
+    <br />
+    <br />
+
+  </div>
+  <!-- News section -->
+  <div class="item1">
+    <div class="column1">
+      <h4>Latest News</h4>
+      <div class="column3">
+        <h5> News item one!</h5>
+        <p>
+          orem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit id libero
+          ut congue. Suspendisse laoreet nisl et mattis interdum. Morbi nunc nisi,
+          rhoncus nec placerat id, vehicula et nunc.
+        </p>
+        <p class="p3">
+          September, 2012
+        </p>
+
+      </div>
+
+      <div class="column3">
+        <h5> News item one!</h5>
+        <P>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque c
+          ongue sapien, vitae suscipit odio luctus et.Phasellus dapibus aliquet
+          velit a mollis. Integervitae mi ut turpis luctus luctus. In scelerisque
+          ongue sapien, vitae suscipit odio luctus et.Phasellus dapibus.
+        </P>
+        <p class="p3">
+          September, 2012
+        </p>
+
+
+      </div>
+
+      <div class="column3">
+        <h5> News item one!</h5>
+        <P>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque c
+          ongue sapien, vitae suscipit odio luctus et.Phasellus dapibus aliquet
+          velit a mollis. Integervitae mi ut turpis luctus luctus. vitae suscipit odio luctus et.Phasellus dapibus aliquet
+          velit a mollis. Integervitae mi ut turpis luctus luctus.
+        </P>
+        <p class="p3">
+          September, 2012
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- side section contaning the poll -->
+    <div class="column2">
+      <div>
+        <h4>Reader Poll</h4>
+        <P>
+          Are Robot juice the best and most usable and accessible fake oils around?
+        </P>
+        <!-- Div where the output from poll.js is inserted -->
+        <div id="outputpoll">
+          <form>
+            <!-- Poll options -->
+            <input id="poll1" onclick="loadpoll(this.value)" type="radio" value="1"><label id="poll3">Yes</label><br>
+            <br />
+            <input id="poll2" onclick="loadpoll(this.value)" type="radio" value="0"><label id="poll4">No</label><br>
+          </form>
+        </div>
+
+        
+        <!--Linking to Poll.js -->
+        <script src="poll.js"></script>
+
+        <h4>Competition</h4>
+        <p>
+          Win absoutley nothing by entering this expensive competition. Robot Juice
+          will not send you a full range of our cycling and motorcycle oils
+          and lubricants as we do not exist. But just for fun.</P>
+        <p>
+          Which Film is out address made up from?
+        </p>
+        <p>a)Armageddon </p>
+        <p>b)Harry Potter </p>
+        <p>c)The simpson (Movie) </p>
+        <p>answers on a postcard please </p><br />
+      </div>
+    </div>
+  </div>
+  <div class="column5">
+    <br />
+    <br />
+    <br />
+  </div>
+
+  <!-- Footer -->
+  <div class="column11">
+  </div>
+  <div class="column12">
+
+    <div class="column21">
+      <img class="footer_photo" src="robot-juice-images/cyclemagazine.jpg" alt="">
+    </div>
+    <div class="column21">
+      <p class="p5"> Latest Reviews</p>
+      <p class="p2">Cycling magazine has given Robot Juice a 5 star rating in its latest
+        reviews of dry lubricants. Robot Juice Dry lube was rated the highestout of
+        over 40 top brand dry lubs.
+      </p>
+    </div>
+    <div class="column22">
+      <!-- Links in the footer -->
+      <P class="p5">Links</p><br />
+      <a class="links" href="https://www.edgehill.ac.uk/">Edge Hill University</a> <br />
+      <a class="links" href="DaveWalsh">Dave Walsh</a><bR />
+      <a class="links" href="https://twitter.com/walsh_d/">https:/twitter.com/walsh_d</a><br />
+      <a class="links" href="#Events">CIS110- Web Design and Development module</a><br />
+
+    </div>
+
+  </div>
+  <div class="column11">
+  </div>
+
+  <div class="column31">'
+
+  </div>
+
+
+  <div class="column32">
+    <div class="column33">
+      <p class="p4">
+        Robot Juice Fictitious Products Not Ltd., Unit 9¾, Privet Drive, Little
+        Whingeing, Surry DN18 5RP
+      </p>
+      <p class="p4">
+        Telephone: +44 (0)1695 657648. Email: walshd@edgehill.ac.uk
+      </p>
+    </div>
+    <div class="column34">
+      <P class="p4">
+        Contact Us| Privacy| Terms & Conditions | Accessibility
+      </P>
+      <p class="p4">
+        Copyright © 2018 Dave Walsh. Design by Dave Walsh
+      </p>
+    </div>
+
+  </div>
+
+
+
+  <div class="column31">
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
